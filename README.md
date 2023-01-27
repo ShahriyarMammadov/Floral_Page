@@ -1,4 +1,4 @@
-# Aroma
+# Floral
 
 ## How to start?
 
