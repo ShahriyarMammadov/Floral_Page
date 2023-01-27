@@ -1,0 +1,51 @@
+.max {
+  max-width: 1200px;
+  margin: 0 auto;
+  .forms {
+    width: 40%;
+    margin: 4% auto;
+    span {
+      color: red;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 700;
+
+        &:focus {
+          background-color: #ff9f67;
+          color: rgb(94, 79, 79);
+        }
+
+        &::selection {
+          background-color: rgb(7, 39, 39);
+          color: white;
+        }
+      }
+      .submitBtn {
+        background-color: rebeccapurple;
+        cursor: pointer;
+      }
+    }
+  }
+
+  button {
+    background-color: #d8e3d5;
+    border: none;
+    color: rgb(16, 99, 78);
+    font-size: 16px;
+    padding: 2%;
+    width: 100%;
+    cursor: pointer;
+    transition: all 1s;
+
+    &:hover {
+      background-color: #a1b89b;
+    }
+  }
+}

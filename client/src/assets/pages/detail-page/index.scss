@@ -1,0 +1,12 @@
+#detailPage {
+  padding: 5%;
+  color: rgb(27, 116, 94);
+  .cardDetail {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2%;
+  }
+}

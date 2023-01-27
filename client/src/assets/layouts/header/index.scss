@@ -1,0 +1,48 @@
+header {
+  background-color: #83ac9a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+  width: 89vw;
+
+  h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+  }
+  nav {
+    display: flex;
+    width: 400px;
+    gap: 5%;
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      transition: all 1s;
+
+      &:hover {
+        text-decoration: underline;
+        color: gold;
+      }
+
+      &.active {
+        color: gold;
+        text-decoration: underline;
+      }
+      @media only screen and (max-width: 640px) {
+        display: none;
+      }
+    }
+    .fa-bars {
+      display: none;
+      @media only screen and (max-width: 640px) {
+        display: block;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
